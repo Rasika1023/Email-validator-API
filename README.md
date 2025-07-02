@@ -1,69 +1,28 @@
-# Welcome to your Lovable project
+# 📧 Email Validator – Web-Based Email Verification Tool
 
-## Project info
+A modern web application to validate email addresses in bulk via a sleek, user-friendly interface. Upload your CSV file, and get an Excel report with verified results — fast, accurate, and downloadable.
 
-**URL**: https://lovable.dev/projects/b87f3019-72bc-48b6-9d88-99d5e821e6dd
+---
 
-## How can I edit this code?
+## 🌐 Live Web App Overview
 
-There are several ways of editing your application.
+📁 Upload a CSV file →  Validate Email Format & Domain →  Download Clean Excel Report
 
-**Use Lovable**
+Built using:
+- ⚙️ Node.js + Express (backend)
+- 💻 HTML/CSS/JavaScript (frontend)
+- 🐍 Python (for email validation logic)
+- 📊 Excel export with `openpyxl` and `pandas`
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b87f3019-72bc-48b6-9d88-99d5e821e6dd) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Key Features
 
-**Use your preferred IDE**
+- 🔄 Upload and process bulk emails via the browser  
+- ✅ Validates email syntax and structure (RFC-compliant)  
+- 🧠 Verifies domain MX records to ensure it's real and can receive emails  
+- 🔍 Flags common domain typos and suggests corrections  
+- 📥 One-click Excel download with full validation status  
+- 🚀 Local dev server with `npm run dev`
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b87f3019-72bc-48b6-9d88-99d5e821e6dd) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
