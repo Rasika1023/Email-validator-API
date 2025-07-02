@@ -25,6 +25,7 @@ Built using:
 - This will start the development server and open the UI in your browser (usually at http://localhost:8080).
 
 **## CSV Format (Sample Input)**
+
 email
 john.doe@gmail.com
 jane_doe@outlook
