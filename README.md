@@ -27,6 +27,7 @@ Built using:
 **## CSV Format (Sample Input)**
 
 email
+
 john.doe@gmail.com
 jane_doe@outlook
 invalid_email@fake
